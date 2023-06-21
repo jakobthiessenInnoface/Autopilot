@@ -1,0 +1,326 @@
+{
+  "assetAdministrationShells" : [ {
+    "modelType" : {
+      "name" : "AssetAdministrationShell"
+    },
+    "assetInformation" : null,
+    "submodels" : [ {
+      "keys" : [ {
+        "idType" : "Iri",
+        "local" : true,
+        "type" : "Submodel",
+        "value" : "www.company.com/ids/sm/4343_5072_7091_3242"
+      } ]
+    }, {
+      "keys" : [ {
+        "idType" : "Iri",
+        "local" : true,
+        "type" : "Submodel",
+        "value" : "www.company.com/ids/sm/6563_5072_7091_4267"
+      } ]
+    } ],
+    "views" : [ ],
+    "embeddedDataSpecifications" : [ ],
+    "identification" : {
+      "idType" : "Iri",
+      "id" : "smart.festo.com/demo/aas/1/1/454576463545648365874"
+    },
+    "category" : "CONSTANT",
+    "idShort" : "Festo_3S7PM0CP4BD",
+    "asset" : {
+      "keys" : [ {
+        "idType" : "Iri",
+        "local" : true,
+        "type" : "Asset",
+        "value" : "HTTP://PK.FESTO.COM/3S7PM0CP4BD"
+      } ]
+    },
+    "description" : [ {
+      "language" : "DE",
+      "text" : "description"
+    } ],
+    "displayName" : [ {
+      "language" : "DE",
+      "text" : "Display Name"
+    } ]
+  } ],
+  "assets" : [ {
+    "modelType" : {
+      "name" : "Asset"
+    },
+    "administration" : {
+      "version" : "1.0"
+    },
+    "identification" : {
+      "idType" : "Iri",
+      "id" : "HTTP://PK.FESTO.COM/3S7PM0CP4BD"
+    },
+    "idShort" : "FPK_3s7plfdrs35",
+    "description" : [ {
+      "language" : "EN",
+      "text" : "en"
+    }, {
+      "language" : "DE",
+      "text" : "de"
+    } ]
+  } ],
+  "conceptDescriptions" : [ {
+    "modelType" : {
+      "name" : "ConceptDescription"
+    },
+    "embeddedDataSpecifications" : [ {
+      "dataSpecification" : {
+        "keys" : [ {
+          "idType" : "Iri",
+          "type" : "GlobalReference",
+          "value" : "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0"
+        } ]
+      },
+      "dataSpecificationContent" : {
+        "dataType" : "String",
+        "definition" : [ {
+          "language" : "EN",
+          "text" : "legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation"
+        }, {
+          "language" : "DE",
+          "text" : "Bezeichnung für eine natürliche oder juristische Person, die für die Auslegung, Herstellung und Verpackung sowie die Etikettierung eines Produkts im Hinblick auf das 'Inverkehrbringen' im eigenen Namen verantwortlich ist"
+        } ],
+        "preferredName" : [ {
+          "language" : "EN",
+          "text" : "Manufacturer Name"
+        }, {
+          "language" : "DE",
+          "text" : "Herstellername"
+        } ],
+        "shortName" : [ {
+          "language" : "EN",
+          "text" : "Manufacturer Name"
+        } ]
+      }
+    } ],
+    "identification" : {
+      "idType" : "Irdi",
+      "id" : "0173-1#02-AAO677#002"
+    },
+    "category" : "Instance",
+    "idShort" : "ManufacturerName"
+  }, {
+    "modelType" : {
+      "name" : "ConceptDescription"
+    },
+    "embeddedDataSpecifications" : [ {
+      "dataSpecification" : {
+        "keys" : [ {
+          "idType" : "Iri",
+          "type" : "GlobalReference",
+          "value" : "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0"
+        } ]
+      },
+      "dataSpecificationContent" : {
+        "dataType" : "StringTranslatable",
+        "definition" : [ {
+          "language" : "EN",
+          "text" : "Short description of the product (short text)"
+        }, {
+          "language" : "DE",
+          "text" : "Kurze Beschreibung des Produktes (Kurztext)"
+        } ],
+        "preferredName" : [ {
+          "language" : "EN",
+          "text" : "Manufacturer product designation"
+        }, {
+          "language" : "DE",
+          "text" : "Herstellerproduktbezeichnung"
+        } ],
+        "shortName" : [ {
+          "language" : "EN",
+          "text" : "ManufacturerTypName"
+        } ]
+      }
+    } ],
+    "identification" : {
+      "idType" : "Irdi",
+      "id" : "0173-1#02-AAW338#001"
+    },
+    "category" : "Instance",
+    "idShort" : "ManufacturerProductDesignation"
+  }, {
+    "modelType" : {
+      "name" : "ConceptDescription"
+    },
+    "embeddedDataSpecifications" : [ {
+      "dataSpecification" : {
+        "keys" : [ {
+          "idType" : "Iri",
+          "type" : "GlobalReference",
+          "value" : "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0"
+        } ]
+      },
+      "dataSpecificationContent" : {
+        "dataType" : "String",
+        "definition" : [ {
+          "language" : "EN",
+          "text" : "name of supplier which provides the customer with a product or a service"
+        }, {
+          "language" : "DE",
+          "text" : "Name des Lieferanten, welcher dem Kunden ein Produkt oder eine Dienstleistung bereitstellt"
+        } ],
+        "preferredName" : [ {
+          "language" : "EN",
+          "text" : "name of supplier"
+        }, {
+          "language" : "DE",
+          "text" : "Lieferantenname"
+        } ],
+        "shortName" : [ {
+          "language" : "EN",
+          "text" : "Manufacturer Name"
+        } ]
+      }
+    } ],
+    "identification" : {
+      "idType" : "Irdi",
+      "id" : "0173-1#02-AAO735#003"
+    },
+    "category" : "Instance",
+    "idShort" : "NameOfSupplier"
+  }, {
+    "modelType" : {
+      "name" : "ConceptDescription"
+    },
+    "embeddedDataSpecifications" : [ {
+      "dataSpecification" : {
+        "keys" : [ {
+          "idType" : "Iri",
+          "type" : "GlobalReference",
+          "value" : "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0"
+        } ]
+      },
+      "dataSpecificationContent" : {
+        "dataType" : "String",
+        "definition" : [ {
+          "language" : "EN",
+          "text" : "Small picture of the product type"
+        }, {
+          "language" : "DE",
+          "text" : "Darstellung des Produkttyps in kleinem Format"
+        } ],
+        "preferredName" : [ {
+          "language" : "EN",
+          "text" : "TypThumbnail"
+        }, {
+          "language" : "DE",
+          "text" : "Vorschaubild"
+        } ],
+        "shortName" : [ {
+          "language" : "EN",
+          "text" : "TypThumbnail"
+        } ]
+      }
+    } ],
+    "identification" : {
+      "idType" : "Irdi",
+      "id" : "https://www.hsu-hh.de/aut/aas/thumbnail"
+    },
+    "category" : "Instance",
+    "idShort" : "TypThumbnail"
+  } ],
+  "submodels" : [ {
+    "modelType" : {
+      "name" : "Submodel"
+    },
+    "kind" : "Instance",
+    "semanticId" : {
+      "keys" : [ {
+        "idType" : "Iri",
+        "type" : "GlobalReference",
+        "value" : "https://www.hsu-hh.de/aut/aas/nameplate"
+      } ]
+    },
+    "identification" : {
+      "idType" : "Iri",
+      "id" : "www.company.com/ids/sm/4343_5072_7091_3242"
+    },
+    "idShort" : "Nameplate",
+    "submodelElements" : [ {
+      "modelType" : {
+        "name" : "Property"
+      },
+      "semanticId" : {
+        "keys" : [ {
+          "idType" : "Irdi",
+          "local" : true,
+          "type" : "ConceptDescription",
+          "value" : "0173-1#02-AAO677#002"
+        } ]
+      },
+      "value" : "Festo Manufacturer AG & Co. KG",
+      "category" : "PARAMETER",
+      "idShort" : "ManufacturerName"
+    }, {
+      "modelType" : {
+        "name" : "Property"
+      },
+      "semanticId" : {
+        "keys" : [ {
+          "idType" : "Irdi",
+          "local" : true,
+          "type" : "ConceptDescription",
+          "value" : "0173-1#02-AAW338#001"
+        } ]
+      },
+      "value" : "OVEL Vacuum generator",
+      "category" : "PARAMETER",
+      "idShort" : "ManufacturerProductDesignation"
+    } ]
+  }, {
+    "modelType" : {
+      "name" : "Submodel"
+    },
+    "kind" : "Instance",
+    "semanticId" : {
+      "keys" : [ {
+        "idType" : "Iri",
+        "type" : "GlobalReference",
+        "value" : "https://www.hsu-hh.de/aut/aas/identification"
+      } ]
+    },
+    "identification" : {
+      "idType" : "Iri",
+      "id" : "www.company.com/ids/sm/6563_5072_7091_4267"
+    },
+    "idShort" : "Identification",
+    "submodelElements" : [ {
+      "modelType" : {
+        "name" : "Property"
+      },
+      "semanticId" : {
+        "keys" : [ {
+          "idType" : "Irdi",
+          "local" : true,
+          "type" : "ConceptDescription",
+          "value" : "0173-1#02-AAO735#003"
+        } ]
+      },
+      "value" : "Festo Supplier AG & Co. KG",
+      "category" : "PARAMETER",
+      "idShort" : "NameOfSupplier"
+    }, {
+      "modelType" : {
+        "name" : "File"
+      },
+      "mimeType" : "image/jpeg",
+      "value" : "/aasx/files/MyFile2.pdf",
+      "semanticId" : {
+        "keys" : [ {
+          "idType" : "Irdi",
+          "local" : true,
+          "type" : "ConceptDescription",
+          "value" : "https://www.hsu-hh.de/aut/aas/thumbnail"
+        } ]
+      },
+      "category" : "PARAMETER",
+      "idShort" : "TypThumbnail"
+    } ]
+  } ]
+}
